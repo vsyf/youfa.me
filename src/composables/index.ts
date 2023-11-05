@@ -7,7 +7,7 @@ export const englishOnly = useStorage('antfu-english-only', false)
  * Credit to [@hooray](https://github.com/hooray)
  * @see https://github.com/vuejs/vitepress/pull/2347
  */
-export function toggleDark(event: MouseEvent) {
+export function toggleDarkA(event: MouseEvent) {
   // @ts-expect-error experimental API
   const isAppearanceTransition = document.startViewTransition
     && !window.matchMedia('(prefers-reduced-motion: reduce)').matches
