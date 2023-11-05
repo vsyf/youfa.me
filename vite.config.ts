@@ -45,11 +45,30 @@ export default defineConfig({
 
     // https://github.com/hannoeru/vite-plugin-pages
     Pages({
+      dirs: [
+        './src/pages',
+        '_posts',
+      ],
       extensions: ['vue', 'md'],
       extendRoute(route) {
+        // ignored files
+        const ignore_files = ['projects.md']
+
         const path = resolve(__dirname, route.component.slice(1))
 
-        if (!path.includes('projects.md') && path.endsWith('.md')) {
+        // if path includes ignored files, return route
+        if (ignore_files.some(file => path.includes(file))) {
+          //
+          return route
+        }
+
+        // if path contains _posts, add route path /posts
+        if (path.includes('_posts')) {
+          //
+          route.path = `/posts${route.path}`
+        }
+
+        if (path.endsWith('.md')) {
           const md = fs.readFileSync(path, 'utf-8')
           const { data } = matter(md)
           route.meta = Object.assign(route.meta || {}, { frontmatter: data })
