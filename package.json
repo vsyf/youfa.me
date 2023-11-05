@@ -20,6 +20,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^1.1.0",
     "@iconify-json/carbon": "^1.1.21",
+    "@iconify/json": "^2.2.137",
     "@types/node": "^20.8.10",
     "@unocss/eslint-config": "^0.57.1",
     "@unocss/eslint-plugin": "^0.57.1",
@@ -37,6 +38,7 @@
     "typescript": "^5.2.2",
     "unocss": "^0.57.1",
     "unplugin-auto-import": "^0.16.7",
+    "unplugin-icons": "^0.17.3",
     "unplugin-vue-components": "^0.25.2",
     "unplugin-vue-macros": "^2.6.2",
     "vite": "^4.5.0",
