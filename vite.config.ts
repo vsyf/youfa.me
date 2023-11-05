@@ -13,6 +13,8 @@ import IconsResolver from 'unplugin-icons/resolver'
 
 import Markdown from 'unplugin-vue-markdown/vite'
 import anchor from 'markdown-it-anchor'
+
+// @ts-expect-error missing types
 import TOC from 'markdown-it-table-of-contents'
 import matter from 'gray-matter'
 import { bundledLanguages, getHighlighter } from 'shikiji'
