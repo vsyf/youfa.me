@@ -12,10 +12,12 @@ declare module 'vue' {
     Logo1: typeof import('./src/components/Logo1.vue')['default']
     LogoStroke: typeof import('./src/components/LogoStroke.vue')['default']
     NavBar: typeof import('./src/components/NavBar.vue')['default']
+    README: typeof import('./src/components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheCounter: typeof import('./src/components/TheCounter.vue')['default']
     TheFooter: typeof import('./src/components/TheFooter.vue')['default']
     TheInput: typeof import('./src/components/TheInput.vue')['default']
+    WrapperPost: typeof import('./src/components/WrapperPost.vue')['default']
   }
 }

@@ -1,6 +1,6 @@
 <template>
   <NavBar />
-  <main font-sans p="x-4 y-10" text="center gray-700 dark:gray-200">
+  <main p="x-7 y-10 of-x-hidden">
     <RouterView />
     <Footer />
   </main>
