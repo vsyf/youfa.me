@@ -12,19 +12,19 @@ Anthony has already create [a perfect starter template](https://github.com/antfu
 
 ## NavBar
 
-copy [NavBar.vue](https://github.com/antfu/antfu.me/blob/main/src/components/NavBar.vue) and do some [change](https://github.com/vsyf/youfa.me/commit/af5042).
+copy [NavBar.vue](https://github.com/antfu/antfu.me/blob/main/src/components/NavBar.vue) and do some [change](https://github.com/yoofa/youfa.me/commit/af5042).
 
 
 ## Footer
-copy [Footer.vue](https://github.com/antfu/antfu.me/blob/main/src/components/Footer.vue) and do some [change](https://github.com/vsyf/youfa.me/commit/6ed4f0).
+copy [Footer.vue](https://github.com/antfu/antfu.me/blob/main/src/components/Footer.vue) and do some [change](https://github.com/yoofa/youfa.me/commit/6ed4f0).
 
 
 ## Enable markdown
-[copy again](https://github.com/vsyf/youfa.me/commit/54f588)
+[copy again](https://github.com/yoofa/youfa.me/commit/54f588)
 
 ## implement posts
 
-shut up and [copy](https://github.com/vsyf/youfa.me/commit/70260a)
+shut up and [copy](https://github.com/yoofa/youfa.me/commit/70260a)
 
 add 2 option `no_list, no_render` in markdown header to control some posts not list in /posts.
 for example, [not-list-demo](https://youfa.me/posts/not-list-demo) can be accessed but is not listed in the [post page](https://youfa.me/posts)

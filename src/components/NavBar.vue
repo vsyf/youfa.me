@@ -19,7 +19,7 @@
           <div i-ri-screenshot-line class="md:hidden" />
         </RouterLink>
 
-        <a href="https://github.com/vsyf" target="_blank" title="GitHub" class="lt-md:hidden">
+        <a href="https://github.com/yoofa" target="_blank" title="GitHub" class="lt-md:hidden">
           <div i-uil-github-alt />
         </a>
         <a class="select-none" title="Toggle Color Scheme" @click="toggleDark()">
