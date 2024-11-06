@@ -1,14 +1,13 @@
-import type { Site, Ui, Features } from './types'
+import type { Features, Site, Ui } from './types'
 
 export const SITE: Site = {
-  website: 'https://astro-antfustyle-theme.vercel.app/',
+  website: 'https://youfa.me/',
   base: '/',
-  title: 'Astro AntfuStyle Theme',
-  description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
-  lang: 'en',
-  ogLocale: 'en_US',
+  title: "Youfa's Personal Site",
+  description: 'Something about Youfa',
+  author: 'Youfa Song',
+  lang: 'zh-Hans',
+  ogLocale: 'zh_CN',
 }
 
 export const UI: Ui = {
@@ -37,16 +36,10 @@ export const UI: Ui = {
   ],
   socialLinks: [
     {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: 'AntfuStyle on Github',
+      link: 'https://github.com/yoofa',
+      title: 'Youfa on Github',
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
-    },
-    {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: `${SITE.author} on Twitter`,
-      displayMode: 'alwaysIcon',
-      icon: 'i-ri-twitter-x-fill',
     },
   ],
   navBarLayout: {
@@ -55,15 +48,14 @@ export const UI: Ui = {
       'internalNavs',
       'socialLinks',
       'searchButton',
-      'themeButton',
       'rssLink',
+      'themeButton',
     ],
     mergeOnMobile: true,
   },
   tabbedLayoutTabs: [
-    { title: 'Changelog', path: '/changelog' },
-    { title: 'AstroBlog', path: '/feeds' },
-    { title: 'AstroStreams', path: '/streams' },
+    { title: 'YoufaBlog', path: '/feeds' },
+    { title: 'YoufaStreams', path: '/streams' },
   ],
   maxGroupColumns: 3,
   showGroupItemColorOnHover: true,
@@ -78,8 +70,8 @@ export const FEATURES: Features = {
   share: [
     true,
     {
-      twitter: [true, '@ste7lin'],
-      mastodon: [true, '@ste7lin@fairy.id'],
+      twitter: [false, '@ste7lin'],
+      mastodon: [false, '@ste7lin@fairy.id'],
       facebook: false,
       pinterest: false,
       reddit: false,
