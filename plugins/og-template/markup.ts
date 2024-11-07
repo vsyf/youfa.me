@@ -28,7 +28,7 @@ export const ogImageMarkup = (
         <svg
           width="55"
           height="45"
-          viewBox="0 0 55 45"
+          viewBox="0 -15 55 60"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
