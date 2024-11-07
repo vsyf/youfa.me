@@ -19,20 +19,13 @@ export const UI: Ui = {
       text: 'Blog',
       // icon: 'i-ri-article-line',
     },
-    {
-      path: '/projects',
-      title: 'Projects',
-      displayMode: 'alwaysText',
-      text: 'Projects',
-      // icon: 'i-ri-lightbulb-line',
-    },
-    {
-      path: '/changelog',
-      title: 'Changelog',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Changelog',
-      icon: 'i-ri-draft-line',
-    },
+    //{
+    //  path: '/projects',
+    //  title: 'Projects',
+    //  displayMode: 'alwaysText',
+    //  text: 'Projects',
+    //  // icon: 'i-ri-lightbulb-line',
+    //},
   ],
   socialLinks: [
     {

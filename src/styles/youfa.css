@@ -1,0 +1,10 @@
+/*
+ * youfa.css
+ * Copyright (C) 2024 youfa
+ *
+ * Distributed under terms of the GPLv2 license.
+ */
+
+.prose {
+  max-width: 100ch;
+}
